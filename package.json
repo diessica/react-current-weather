@@ -1,0 +1,52 @@
+{
+  "name": "react-current-weather",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.15.3",
+    "halogen": "^0.2.0",
+    "lodash.get": "^4.4.2",
+    "lodash.isempty": "^4.4.0",
+    "react": "^15.4.2",
+    "react-addons-css-transition-group": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-geosuggest": "^2.1.0",
+    "react-redux": "^5.0.3",
+    "redux": "^3.6.0",
+    "redux-logger": "^2.8.2",
+    "redux-persist": "^4.7.1",
+    "redux-promise-middleware": "^4.2.0",
+    "redux-seamless-immutable": "^0.3.0",
+    "redux-thunk": "^2.2.0",
+    "seamless-immutable": "^7.1.1",
+    "styled-components": "^1.4.4"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.0",
+    "enzyme": "^2.7.1",
+    "eslint-plugin-flowtype": "^2.32.1",
+    "flow-bin": "^0.45.0",
+    "moxios": "^0.4.0",
+    "react-addons-test-utils": "^15.4.2",
+    "react-scripts": "0.9.5",
+    "redux-mock-store": "^1.2.3",
+    "sinon": "^2.1.0",
+    "standard": "^9.0.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "standard && react-scripts test --env=jsdom",
+    "standard": "standard --fix"
+  },
+  "standard": {
+    "parser": "babel-eslint",
+    "plugins": [
+      "flowtype"
+    ],
+    "ignore": [
+      "public"
+    ],
+    "globals": ["ReactClass"]
+  }
+}

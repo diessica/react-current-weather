@@ -1,0 +1,9 @@
+[ignore]
+.*/node_modules/styled-components.*
+
+[include]
+
+[libs]
+node_modules/redux-persist/lib/index.js.flow
+
+[options]
